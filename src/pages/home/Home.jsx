@@ -21,10 +21,10 @@ const Home = () => {
         </div>
         <div className="charts">
           <Featured />
-          <Chart aspect={2} title="Lorem ipsum" />
+          <Chart aspect={2} title="Last 6 month (Revenue)" />
         </div>
         <div className="listContainer">
-          <div className="listTitle">Table</div>
+          <div className="listTitle">Latest transactions</div>
           <List />
         </div>
       </div>
